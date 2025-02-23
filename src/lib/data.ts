@@ -920,61 +920,61 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2025, 1, 10, 10, 0),
-    end: new Date(2025, 1, 10, 11, 0),
+    start: new Date(2025, 1, 17, 10, 0), // Feb 17, 2025, 10:00 AM
+    end: new Date(2025, 1, 17, 11, 0), // Feb 17, 2025, 11:00 AM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2025, 1, 10, 12, 0),
-    end: new Date(2025, 1, 10, 12, 45),
+    start: new Date(2025, 1, 17, 12, 0), // Feb 17, 2025, 12:00 PM
+    end: new Date(2025, 1, 17, 12, 45), // Feb 17, 2025, 12:45 PM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2025, 1, 11, 9, 0),
-    end: new Date(2025, 1, 11, 9, 45),
+    start: new Date(2025, 1, 18, 9, 0), // Feb 18, 2025, 9:00 AM
+    end: new Date(2025, 1, 18, 9, 45), // Feb 18, 2025, 9:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2025, 1, 11, 11, 0),
-    end: new Date(2025, 1, 11, 11, 45),
+    start: new Date(2025, 1, 18, 11, 0), // Feb 18, 2025, 11:00 AM
+    end: new Date(2025, 1, 18, 11, 45), // Feb 18, 2025, 11:45 AM
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2025, 1, 12, 13, 0),
-    end: new Date(2025, 1, 12, 13, 45),
+    start: new Date(2025, 1, 19, 13, 0), // Feb 19, 2025, 1:00 PM
+    end: new Date(2025, 1, 19, 13, 45), // Feb 19, 2025, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2025, 1, 12, 14, 0),
-    end: new Date(2025, 1, 12, 14, 45),
+    start: new Date(2025, 1, 19, 14, 0), // Feb 19, 2025, 2:00 PM
+    end: new Date(2025, 1, 19, 14, 45), // Feb 19, 2025, 2:45 PM
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2025, 1, 13, 8, 0),
-    end: new Date(2025, 1, 13, 8, 45),
+    start: new Date(2025, 1, 20, 8, 0), // Feb 20, 2025, 8:00 AM
+    end: new Date(2025, 1, 20, 8, 45), // Feb 20, 2025, 8:45 AM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2025, 1, 13, 10, 0),
-    end: new Date(2025, 1, 13, 10, 45),
+    start: new Date(2025, 1, 20, 10, 0), // Feb 20, 2025, 10:00 AM
+    end: new Date(2025, 1, 20, 10, 45), // Feb 20, 2025, 10:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2025, 1, 14, 9, 0),
-    end: new Date(2025, 1, 14, 9, 45),
+    start: new Date(2025, 1, 21, 9, 0), // Feb 21, 2025, 9:00 AM
+    end: new Date(2025, 1, 21, 9, 45), // Feb 21, 2025, 9:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2025, 1, 14, 11, 0),
-    end: new Date(2025, 1, 14, 11, 45),
+    start: new Date(2025, 1, 21, 11, 0), // Feb 21, 2025, 11:00 AM
+    end: new Date(2025, 1, 21, 11, 45), // Feb 21, 2025, 11:45 AM
   },
 ];
