@@ -42,7 +42,7 @@ The **School Dashboard Management System** is a web application designed to stre
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/school-dashboard.git
+   git clone https://github.com/xandersavage/next-school-dashboard-ui
    cd school-dashboard
    ```
 2. **Install Dependencies**
