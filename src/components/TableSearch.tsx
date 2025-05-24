@@ -1,8 +1,23 @@
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const TableSearch = () => {
+  const router = useRouter();
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const value = (e.currentTarget[0] as HTMLInputElement).value;
+    if (!value) return;
+    const params = new URLSearchParams(window.location.search);
+    params.set("search", value);
+    router.push(`${window.location.pathname}?${params}`);
+  };
+
   return (
-    <div
+    <form
+      onSubmit={handleSubmit}
       className="w-full md:w-auto items-center gap-2 text-xs
         rounded-full ring-[1.5px] ring-gray-300 px-2 flex"
     >
@@ -13,7 +28,7 @@ const TableSearch = () => {
         className="w-[200px]
           p-2 bg-transparent outline-none"
       />
-    </div>
+    </form>
   );
 };
 export default TableSearch;
